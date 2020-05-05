@@ -45,7 +45,7 @@ body{
     line-height: 1.5;
     color: $VeryDarkBlue;
 
-    @include query(tab){
+    @include query(cp){
         overflow-x: hidden;
     }
 }
@@ -667,7 +667,7 @@ li{
 .mobilenav{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height:100vh;
     background-color: rgba($VeryDarkBlue,0.95);
     z-index: 999;
@@ -683,7 +683,7 @@ li{
         display: flex;
         justify-content: space-between;
         padding: 0 1.2rem;
-        width: 82%;
+        width: 100%;
 
         margin-bottom: 2rem;
     }
@@ -700,7 +700,7 @@ li{
     &__list{
         text-align: center;
         padding: 1rem 0;
-        width: 82%;
+        width: 100%;
 
     }
 
@@ -730,7 +730,7 @@ li{
     }
 
     &__icons{
-        width: 82%;
+        width: 100%;
         margin: 0 auto;
         position: fixed;
         bottom: 20%;

@@ -31,7 +31,7 @@ body {
   color: #252b46;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
   }
@@ -853,7 +853,7 @@ li {
 .mobilenav {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: rgba(37, 43, 70, 0.95);
   z-index: 999;
@@ -877,7 +877,7 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 1.2rem;
-  width: 82%;
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -895,7 +895,7 @@ li {
 .mobilenav__list {
   text-align: center;
   padding: 1rem 0;
-  width: 82%;
+  width: 100%;
 }
 
 .mobilenav__item {
@@ -925,7 +925,7 @@ li {
 }
 
 .mobilenav__icons {
-  width: 82%;
+  width: 100%;
   margin: 0 auto;
   position: fixed;
   bottom: 20%;

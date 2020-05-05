@@ -44,6 +44,10 @@ body{
     font-family: 'Rubik',sans-serif;
     line-height: 1.5;
     color: $VeryDarkBlue;
+
+    @include query(tab){
+        overflow: hidden;
+    }
 }
 
 a{
@@ -740,6 +744,13 @@ li{
         fill: white;
         margin: 0 0.5rem;
     }
+}
+
+.attribution{
+    font-size: 0.6rem;
+    text-align: center;
+    background-color: $VeryDarkBlue;
+    color: gray;
 }
 
 // STATE CLASSES

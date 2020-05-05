@@ -31,6 +31,12 @@ body {
   color: #252b46;
 }
 
+@media only screen and (max-width: 900px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -936,6 +942,13 @@ li {
   height: 4rem;
   fill: white;
   margin: 0 0.5rem;
+}
+
+.attribution {
+  font-size: 0.6rem;
+  text-align: center;
+  background-color: #252b46;
+  color: gray;
 }
 
 .current {

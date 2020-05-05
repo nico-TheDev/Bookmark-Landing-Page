@@ -46,7 +46,7 @@ body{
     color: $VeryDarkBlue;
 
     @include query(tab){
-        overflow: hidden;
+        overflow-x: hidden;
     }
 }
 

@@ -45,9 +45,9 @@ body{
     line-height: 1.5;
     color: $VeryDarkBlue;
 
-    @include query(cp){
-        overflow-x: hidden;
-    }
+}
+.wrapper{
+    overflow-x: hidden;
 }
 
 a{
